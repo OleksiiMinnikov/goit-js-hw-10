@@ -1,0 +1,96 @@
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #f5f5f5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* Завантажувач */
+.loader {
+  display: none;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/* Стиль повідомлення про помилку */
+.error {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #f44336;  /* Використати червоний колір для повідомлення про помилку */
+}
+
+/* Інформація про кота */
+.cat-info {
+  margin-top: 30px;
+}
+
+.thumb {
+  float: left;
+  width: 400px;
+  max-height: 400px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.cat-info-text {
+  overflow: hidden;
+  /* Очистити плаваючий ефект і дозволити тексту обтікати зображення */
+}
+
+.catName {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description,
+.temperament {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Вибір породи кота */
+.breed-select {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  max-width: 400px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.breed-select option[value=""] {
+  display: none;
+  /* Приховати стандартний варіант вибору */
+}
